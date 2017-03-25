@@ -1,0 +1,8 @@
+# A make file to generate mac, windows and linux binaries
+
+env GOOS=linux GOARCH=amd64  go build  -o bin/linux/mobile_report_generator main.go
+env GOOS=darwin GOARCH=amd64  go build -o bin/mac/mobile_report_generator main.go
+env GOOS=windows GOARCH=amd64  go build -o bin/windows/mobile_report_generator.exe main.go
+chmod +x bin/linux/mobile_report_generator
+chmod +x bin/mac/mobile_report_generator
+chmod +x bin/windows/mobile_report_generator.exe
