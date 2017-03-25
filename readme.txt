@@ -33,9 +33,26 @@ How do i run this application?
 =============================
 
 Depending on the platform you are using , simpy run the binary file found in the bin directory for your 
-operating system from the projects main folder i.e. mobile_loans/ e.g. :
+operating system from the projects main folder in your terminal i.e. mobile_loans/ e.g. :
 
-bin/mac/mobile_report_generator 
+For Mac: 
+1. Open Terminal
+2. cd mobile_loans/
+3. Execute: bin/mac/mobile_report_generator 
+
+For Linux: 
+1. Open Terminal
+2. cd mobile_loans/
+3. Execute: bin/linux/mobile_report_generator 
+
+For Windows**: 
+1. Open CMD
+2. cd mobile_loans
+3. Execute: bin\linux\mobile_report_generator 
+
+** Tested on Windows 7 AMD 64bit, should work fine in other versions however I haven't had sufficient
+  time or windows versions to test on the various devices and windows versions. 
+
 
 (Optional) You can rebuild the app on your operating system if needed by doing the following :
 go run main.go       (go must be installed, instructions here : https://golang.org/doc/install)
