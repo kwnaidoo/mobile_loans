@@ -2,6 +2,7 @@
                             MOBILE LOANS APP
 ==================================================================================================
 
+A simple Go based app to parse CSV files and extract network transactional information.
 
  Project Structure
  =================================
@@ -63,21 +64,7 @@ go run main.go       (go must be installed, instructions here : https://golang.o
   
 
 
-Why GoLang?
-==========
-
-While my stronger languages are PHP, Python, JavaScript , I chose GO for the following reasons :
-
-1. Super Fast - GO outperforms Python and PHP with ease ( benchmark tests for performance comparison can be found here
-                 https://tinyurl.com/ph39q9w ) . This will therefore mean that the GO version will be more efficient
-                  with bigger CSV files and put less strain on the underlying hardware. 
-
-2. Module by Design - While GO is not exactly an OOP language , it's design patterns simulate modular OOP design with 
-                      conventions for packaging code into modules and structs allowing for neat well
-                      structured separation of business logic.
-
-3. Strict Convention - GO standards are very picky about how you name variables , where you put files and how you should
-                       document code. This ensures all programmers working on a project write code in a uniform manner
+sures all programmers working on a project write code in a uniform manner
                        which makes maintenance so much easier and more efficient.
 
 4. Learning Experience - Two of the core creators of GO are  Rob Pike and Ken Thompson, these are guys that have contributed
@@ -90,17 +77,3 @@ While my stronger languages are PHP, Python, JavaScript , I chose GO for the fol
 5. Power of C with the beauty of Python - Go gives you high performance programs similar to C but also makes your development 
                                           workflow that much easier with a Python like syntax structure with static typing.
 
-
-NOTES
-=====
-
->> I omitted the "MSISDN" column because the Output.csv report is somewhat of a summary of totals.
->> To avoid another uneeded for loop - I have printed the "Total Revenue From ALL Networks" on every networks line item. This 
-   will also make parsing the Output.csv a bit easier. 
->> The outputted CSV utilizes quotes '' for data fields and commas "," to seperate columns.     
->> Full documentation provided via comments throughout the source code.
->> While there may seem more folders than needed , I designed this solution around an "MVC" design pattern therefore 
-   providing a "mini framework" for the application to grow and enforce an organised structure to follow when adding
-   further features in future. The go compile will optimize and merge all these into a single binary. 
->> to run unit tests simply issue the following command in the projects root folder in your terminal :
-    go test ./...
