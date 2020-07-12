@@ -51,29 +51,3 @@ For Windows**:
 1. Open CMD
 2. cd mobile_loans
 3. Execute: bin\linux\mobile_report_generator 
-
-** Tested on Windows 7 AMD 64bit HP device, should work fine in other versions however I haven't had sufficient
-  time or windows versions to test on the various devices and windows versions. 
-
-
-(Optional) You can directly build and run the app on your OS instead of using the precompiled versions :
-go run main.go       (go must be installed, instructions here : https://golang.org/doc/install)
-   
-   NOTE: with the above approach, the app will be a few seconds slower since go needs to compile first before
-         running main.go.
-  
-
-
-sures all programmers working on a project write code in a uniform manner
-                       which makes maintenance so much easier and more efficient.
-
-4. Learning Experience - Two of the core creators of GO are  Rob Pike and Ken Thompson, these are guys that have contributed
-                         to projects like Unix , B (the predeccessor to C) and Google and therefore amongst the best
-                        programmers in the world. GO introduces a new way of programming for the modern era and is designed
-                        to build high performance applications with a cleaner syntax compared to something like C/C++. 
-
-                        I therefore want to master this language and add it to my Python , PHP, JavaScript toolset; as I feel that it's got great potential therefore this posed a good learning exercise to improve my GO skills.  
-
-5. Power of C with the beauty of Python - Go gives you high performance programs similar to C but also makes your development 
-                                          workflow that much easier with a Python like syntax structure with static typing.
-
