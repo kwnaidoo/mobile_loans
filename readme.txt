@@ -2,7 +2,7 @@
                             MOBILE LOANS APP
 ==================================================================================================
 
-A simple Go based app to parse CSV files and extract network transactional information.
+A simple Go based app to parse CSV files and extract network transactional information about mobile loan sales.
 
  Project Structure
  =================================
